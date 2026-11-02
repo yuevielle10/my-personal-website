@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #0b1d33;
+    font-family: Arial, sans-serif;
+    color: #e6f3ff;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+}
+
+.header {
+    background: #193e63;
+    padding: 35px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.header h1 {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #b9e2ff;
+}
+
+.header p {
+    color: #d4eaff;
+}
+
+.section {
+    background: #122b47;
+    padding: 22px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 1px solid #315d83;
+}
+
+h2 {
+    color: #91cefa;
+    border-bottom: 1px solid #416d91;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #b9e2ff;
+    margin-top: 25px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #91cefa;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #91cefa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>ABOUT ME</h1>
+        <p>A little something about myself.</p>
+    </div>
+
+    <div class="section">
+        <h2>Personal Information</h2>
+
+        <h3>My Picture</h3>
+        <img src="me.jpg" alt="My picture">
+
+        <p><b>Name:</b> Cyrayelle Francheska G. Lukkat</p>
+        <p><b>Nickname:</b> Cy/Cyra</p>
+
+        <h3>My Celebrity Crush</h3>
+        <h4>Keonho</h4>
+        <img src="keonho.jpg" alt="Crush">
+
+        <h3>My Motto in Life</h3>
+        <p>"Life is too short to live by someone else's expectations."</p>
+
+        <h3>Favorite Food</h3>
+        <p>Buldak</p>
+    </div>
+
+    <div class="section">
+        <h2>Educational Background</h2>
+
+        <h3>Elementary</h3>
+        <p>Pasong Tamo Elementary School</p>
+
+        <h3>Junior High School</h3>
+        <p>Emilio Jacinto National High School</p>
+    </div>
+
+    <footer>
+        That's all about me! Byeee!
+    </footer>
+
+</div>
+
+</body>
+</html>
